@@ -1,0 +1,53 @@
+body {
+  font-family: Tahoma, Verdana, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.divContainer {
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 16px auto;
+}
+
+.rows {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.columns {
+  width: 100%;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.lastRow {
+  border-bottom: 1px solid black;
+}
+
+.lastColumn {
+  border-right: 1px solid black;
+}
+
+.active {
+  background-color: grey;
+  color: white;
+}
+
+.btnContainer {
+  display: flex;
+  width: 500px;
+  gap: 5px;
+  margin: auto;
+}
+
+.resetBtn {
+  margin-left: auto;
+}
